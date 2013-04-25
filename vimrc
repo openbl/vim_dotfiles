@@ -176,6 +176,9 @@ nnoremap <silent> Y y$
 
 map <silent> <LocalLeader>ws :highlight clear ExtraWhitespace<CR>
 
+vmap <tab> >gv
+vmap <s-tab> <gv
+
 " ========= Insert Shortcuts ========
 
 imap <C-L> <SPACE>=><SPACE>
