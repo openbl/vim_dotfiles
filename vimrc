@@ -240,3 +240,6 @@ function! __HardMode()
   nmap k <nop>
   nmap l <nop>
 endfunction
+
+let g:bufExplorerSortBy='fullpath'
+let g:bufExplorerShowRelativePath=1
